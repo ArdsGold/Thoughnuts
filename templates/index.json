@@ -15,14 +15,14 @@
         "heading_g4XXP9": {
           "type": "heading",
           "settings": {
-            "heading": "DONUTS ARE ALWAYS MADE FRESH DAILY!",
+            "heading": "<strong>DONUTS ARE ALWAYS MADE FRESH DAILY!</strong>",
             "heading_size": "h1"
           }
         },
         "text_fbR7e3": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text": "<p>Grab a delicious donut with your coffee on the way to work… Or grab a dozen for your office!</p>",
             "text_style": "body"
           }
         },
@@ -44,6 +44,7 @@
         "buttons_wwH4gq"
       ],
       "settings": {
+        "image": "shopify://shop_images/Rectangle_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
