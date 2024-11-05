@@ -1,0 +1,39 @@
+<div class="db-body-sec3" id="Banner-{{ section.id }}">
+  <div class="page-width text-section">
+        <p class="db-caption-sec3">CATEGORIES</p>
+        <h1 class="db-heading-sec3">Amazing Donuts</h1>
+        <p class="db-text-sec3">
+            Lorem ipsum dolor sit amet consectetur. Sed elementum integer suspendisse varius ornare<br> nunc in tincidunt euismod. Pellentesque ullamcorper at nullam convallis magna.
+        </p>
+    </div>
+
+  <div class="db-container-sec3 page-width">
+    <div class="db-container-sec3-inner">
+      <img class="donut-item" src="{{ 'Donut1.png' | asset_url }}" alt="Donut 1">
+      <img class="donut-item" src="{{ 'Donut3.png' | asset_url }}" alt="Donut 3">
+      <img class="donut-item" src="{{ 'Donut2.png' | asset_url }}" alt="Donut 2">
+      <img class="donut-item" src="{{ 'Donut4.png' | asset_url }}" alt="Donut 4">
+    </div>
+    <div class="donut-item-large">
+      <img src="{{ 'Donut5.png' | asset_url }}" alt="Donut 5">
+      <div class="item-description-sec3">KING CAKES</div>
+    </div>
+  </div>
+
+  <div class="page-width db-button-container">
+    <button class="db-button-sec3">VIEW ALL</button>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "4 collection 1 collection",
+  "settings": [
+  ],
+  "presets": [
+    {
+      "name": "4 collection 1 collection"
+    }
+  ]
+}
+{% endschema %}
