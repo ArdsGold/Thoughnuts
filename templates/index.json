@@ -22,7 +22,7 @@
         "text_fbR7e3": {
           "type": "text",
           "settings": {
-            "text": "<p>Grab a delicious donut with your coffee on the way to work… Or grab a dozen for your office!</p>",
+            "text": "<p>Grab a delicious donut with your coffee on the way to work…<br/>Or grab a dozen for your office!</p>",
             "text_style": "body"
           }
         },
