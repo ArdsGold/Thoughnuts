@@ -9,22 +9,29 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "image_banner_2_EPe4Mq": {
+      "type": "image-banner-2",
       "blocks": {
-        "heading": {
+        "heading_g4XXP9": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "DONUTS ARE ALWAYS MADE FRESH DAILY!",
+            "heading_size": "h1"
           }
         },
-        "button": {
+        "text_fbR7e3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_wwH4gq": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_label_1": "BUY NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -32,20 +39,21 @@
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "heading_g4XXP9",
+        "text_fbR7e3",
+        "buttons_wwH4gq"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-5c405334-ed08-45ec-be40-f9899531e915",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "featured_collection": {
@@ -75,58 +83,10 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "image_banner_2_EPe4Mq": {
-      "type": "image-banner-2",
-      "blocks": {
-        "heading_g4XXP9": {
-          "type": "heading",
-          "settings": {
-            "heading": "DONUTS ARE ALWAYS MADE FRESH DAILY!",
-            "heading_size": "h1"
-          }
-        },
-        "text_fbR7e3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
-            "text_style": "body"
-          }
-        },
-        "buttons_wwH4gq": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_g4XXP9",
-        "text_fbR7e3",
-        "buttons_wwH4gq"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-5c405334-ed08-45ec-be40-f9899531e915",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection",
-    "image_banner_2_EPe4Mq"
+    "image_banner_2_EPe4Mq",
+    "featured_collection"
   ]
 }
