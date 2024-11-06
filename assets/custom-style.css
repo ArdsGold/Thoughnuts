@@ -1,4 +1,10 @@
-/* Image banner 2 */ 
+/************************************* Global *************************************/ 
+
+.db-bold{
+    font-weight: bold;
+}
+
+/************************************* Image banner 2 *************************************/ 
 
 .db-banner-height strong {
     font-weight: 700;
@@ -53,7 +59,7 @@
 
 
 
-/* Image with text 2 */ 
+/************************************* Image with text 2 *************************************/ 
 
 .db-heading-sec2 p {
     margin: 0 0 5px 0;
@@ -67,7 +73,7 @@
 .db-caption-sec2 {
     margin: 0;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 17px!important;
     line-height: 100%;
     color: #95171c;
 }
@@ -108,7 +114,7 @@
     height: 356px;
 }
 
-/* 4 collection 1 collection */
+/************************************* 4 collection 1 collection *************************************/
 
 .db-body-sec3{
     padding: 62px 0;
@@ -215,4 +221,157 @@
     line-height: 100%;
     text-align: center;
     color: #fff;
+}
+
+/************************************* Sec 4 *************************************/
+
+.db-container-sec4 {
+    max-width: 100rem!important;
+}
+
+.db-banner-sec4 p {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.db-text-sec4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    margin: 18px 0;
+    
+}
+
+.db-text2-sec4 p {
+    font-weight: 400;
+    font-size: 24px!important;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 36px;
+}
+
+.db-button-group-sec4 {
+    display: flex !important;
+    flex-wrap: nowrap!important;
+    max-width: initial!important;
+    gap: 31px!important;
+    width: 559px!important;
+    height: 50px!important;
+    margin: auto;
+    
+}
+
+.db-button1-sec4:before,
+.db-button1-sec4:after {
+    content: none;
+}
+
+.db-button1-sec4 {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 292px;
+    height: 50px;
+    opacity: 1 !important;
+    background: white !important;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #95171c;
+    letter-spacing: 0px!important;
+
+}
+
+.db-button2-sec4:before,
+.db-button2-sec4:after {
+    content: none;
+}
+
+.db-button2-sec4 {
+    opacity: 1 !important;
+    background: none !important;
+
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 236px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/************************************* Sec5 *************************************/
+
+.db-heading-sec5 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 100%;
+    text-align: center;
+    color: #95171c;
+}
+
+.db-description-body-sec5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #515151;
+    
+    max-width: 829px;
+}
+
+.price__container {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #ed1c24;
+}
+
+.card__heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000;
+}
+
+/************************************* Sec6 *************************************/
+
+
+.db-newsletter-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 106%;
+    text-align: center;
+    color: #370a0c;
+}
+
+.db-newsletter-description {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #370a0c;
+    /* margin: 54px!important; */
+}
+
+.db-newsletter-bg {
+    background-image: url('https://cdn.shopify.com/s/files/1/0901/9749/2009/files/Rectangle_21.png?v=1730912007');
+    /* background-size: cover;  */
+    background-position: center;
+}
+
+.newsletter__subheading{
+    
 }
