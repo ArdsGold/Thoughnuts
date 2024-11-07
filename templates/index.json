@@ -15,7 +15,7 @@
         "heading_g4XXP9": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>DONUTS ARE ALWAYS MADE FRESH DAILY!</strong>",
+            "heading": "<h1>DONUTS ARE ALWAYS MADE FRESH DAILY!</h1>",
             "heading_size": "h1"
           }
         },
