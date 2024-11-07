@@ -123,14 +123,14 @@
         "heading_XDqDgt": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Image banner</p>",
+            "heading": "<p>ORDER ONLINE FOR PICKUP!</p>",
             "heading_size": "h1"
           }
         },
         "text_7nQPKi": {
           "type": "text",
           "settings": {
-            "text": "<p>Give customers details about the banner image(s) or content on the template.</p>",
+            "text": "<p>Save time and order from Gerald’s Donuts online. We’ll have your freshly-made order, hot and ready for pickup!</p><p>Since we’re open 24 hours, it’s never a bad time to order food from Gerald’s. Ready for some breakfast? Want to satisfy your sweet tooth? Or would a SANDWICH or BURGER hit the spot?</p>",
             "text_style": "body"
           }
         },
