@@ -347,6 +347,17 @@
     color: #000;
 }
 
+.db-subtitles-sec5 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #515151;
+    width: 829px;
+    margin:auto;
+}
+
 /************************************* Sec6 *************************************/
 
 
@@ -429,6 +440,14 @@
     opacity: 0.67;
 }
 
+.db-footer-contact-header {
+    font-weight: 600;
+    font-size: 24px!important;
+    line-height: 137%;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
 .db-footer-submit-button {
     width: 121px!important;
     font-weight: 700;
@@ -439,8 +458,24 @@
     background-color: #ED1C24!important;
 }
 
+.db-newsletter-box-width1 {
+    max-width: 967px!important;
+}
+
+.db-newsletter-box-width2 {
+    max-width: initial!important;
+}
+
+.db-newsletter-div {
+    padding: 0!important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 .db-newsletter input {
     background-color: transparent;
+    border-bottom: 1px solid #370A0C;
 }
 
 .db-newsletter label {
@@ -449,3 +484,9 @@
     text-align: center;
     color: #370a0c;
 }
+
+.db-newsletter::after,
+.db-newsletter::before {
+    content: none;
+}
+

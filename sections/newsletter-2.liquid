@@ -45,11 +45,11 @@
             {{ block.settings.text }}
           </div>
         {%- when 'email_form' -%}
-          <div {{ block.shopify_attributes }}>
-            {% form 'customer', class: 'newsletter-form' %}
+          <div class="db-newsletter-div" {{ block.shopify_attributes }}>
+            {% form 'customer', class: 'newsletter-form db-newsletter-box-width1' %}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div
-                class="newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                class="newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} newsletter-form db-newsletter-box-width2"
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
@@ -60,7 +60,7 @@
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
                     name="contact[email]"
-                    class="field__input"
+                    class="field__input db-newsletter-input-size"
                     value="{{ form.email }}"
                     aria-required="true"
                     autocorrect="off"
@@ -76,7 +76,7 @@
                     placeholder="{{ 'newsletter.label' | t }}"
                     required
                   >
-                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                  <label class="field__label db-field-newsletter-label" for="NewsletterForm--{{ section.id }}">
                     Enter your Email Address
                   </label>
                   <button
