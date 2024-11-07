@@ -372,6 +372,80 @@
     background-position: center;
 }
 
-.newsletter__subheading{
-    
+
+/************************************* Sec6 *************************************/
+
+.footer__content-top {
+    display: flex!important;
+    gap: 76px;
+}
+
+.db-footer-brandinfo {
+    width: 371px;
+}
+
+.db-footer-brandinfo p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #fff;
+}
+
+.footer-block--menu {
+    width: 135px!important;
+}
+
+.db-footer-menu-style h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.list-menu__item {
+    font-weight: 400!important;
+    font-size: 16px!important;
+    line-height: 150%!important;
+    letter-spacing: 0.01em!important;
+    color: #a8a8a8!important;
+    text-decoration: none!important;
+}
+
+.db-footer-contact input{
+    border-radius: 5px 0 0 5px;
+    width: 353px;
+    border: none!important;
+    outline: none!important;
+    background: #f4f6f5;
+}
+
+.db-footer-contact label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #2e2e2e;
+    opacity: 0.67;
+}
+
+.db-footer-submit-button {
+    width: 121px!important;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #fff;
+    background-color: #ED1C24!important;
+}
+
+.db-newsletter input {
+    background-color: transparent;
+}
+
+.db-newsletter label {
+    font-weight: 500 !important;
+    font-size: 16px;
+    text-align: center;
+    color: #370a0c;
 }

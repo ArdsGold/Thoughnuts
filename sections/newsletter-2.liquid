@@ -55,7 +55,7 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
-                <div class="field">
+                <div class="field db-newsletter">
                   <input
                     id="NewsletterForm--{{ section.id }}"
                     type="email"
@@ -77,7 +77,7 @@
                     required
                   >
                   <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                    {{ 'newsletter.label' | t }}
+                    Enter your Email Address
                   </label>
                   <button
                     type="submit"
@@ -87,7 +87,7 @@
                     aria-label="{{ 'newsletter.button_label' | t }}"
                   >
                     <span class="svg-wrapper">
-                      {{- 'icon-arrow.svg' | inline_asset_content -}}
+                      <img src="https://cdn.shopify.com/s/files/1/0901/9749/2009/files/Group_5.png?v=1730978997" alt="">
                     </span>
                   </button>
                 </div>
