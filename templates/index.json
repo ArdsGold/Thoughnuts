@@ -71,14 +71,14 @@
         "heading_RXqAk3": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Image with text</p>",
+            "heading": "<p>It’s always a great day at Gerald’s Donuts!</p>",
             "heading_size": "h1"
           }
         },
         "text_8VE8VG": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Gerald’s Donuts is known for having hot & fresh donuts 24 hours a day, but we also make KING CAKES all year ’round, have a full menu, and even provide catering for outside events.</p><p>Family owned and operated, Gerald’s Donuts is proud to serve and be a part of our local communities.</p>",
             "text_style": "body"
           }
         },
