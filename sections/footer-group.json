@@ -53,13 +53,37 @@
           "settings": {
             "show_social": true
           }
+        },
+        "link_list_xXtmDA": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "link_list_CcRJj3": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "policies"
+          }
+        },
+        "newsletter_jkpiyD": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Want to Partner with us?",
+            "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>"
+          }
         }
       },
       "block_order": [
-        "brand_information_7DdMF4"
+        "brand_information_7DdMF4",
+        "link_list_xXtmDA",
+        "link_list_CcRJj3",
+        "newsletter_jkpiyD"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-b6c67529-4a31-40ea-9265-bf4a3e0f9fc0",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
