@@ -11,11 +11,56 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_2_ALBVhx": {
+      "type": "newsletter-2",
+      "blocks": {
+        "heading_ERiCVU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_EjJxjx": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Enter your email address for our mailing list to keep your self update.</p>"
+          }
+        },
+        "email_form_gRgGEi": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_ERiCVU",
+        "paragraph_EjJxjx",
+        "email_form_gRgGEi"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "brand_information_7DdMF4": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_7DdMF4"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
@@ -30,6 +75,7 @@
     }
   },
   "order": [
+    "newsletter_2_ALBVhx",
     "footer"
   ]
 }
