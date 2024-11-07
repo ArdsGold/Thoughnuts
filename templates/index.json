@@ -15,7 +15,7 @@
         "heading_g4XXP9": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>DONUTS ARE ALWAYS MADE FRESH DAILY!</h1>",
+            "heading": "<h1><strong>DONUTS ARE ALWAYS MADE FRESH DAILY!</strong></h1>",
             "heading_size": "h1"
           }
         },
@@ -60,6 +60,14 @@
     "image_with_text_2_jJTU9J": {
       "type": "image-with-text-2",
       "blocks": {
+        "caption_fp9TUi": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_RXqAk3": {
           "type": "heading",
           "settings": {
@@ -84,11 +92,13 @@
         }
       },
       "block_order": [
+        "caption_fp9TUi",
         "heading_RXqAk3",
         "text_8VE8VG",
         "button_tBNadz"
       ],
       "settings": {
+        "image": "shopify://shop_images/image_9.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -142,12 +152,13 @@
         "buttons_9eJ8FE"
       ],
       "settings": {
+        "image": "shopify://shop_images/Rectangle_11_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-5c405334-ed08-45ec-be40-f9899531e915",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -162,9 +173,9 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "new-arrivals",
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
